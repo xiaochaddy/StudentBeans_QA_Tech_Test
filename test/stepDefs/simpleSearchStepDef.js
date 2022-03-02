@@ -7,3 +7,13 @@ Given('I am on the studentbeans homepage', function () {
   simpleSearchPageObject.goToHomePage()
   simpleSearchPageObject.verifyHomePage()
 })
+And('I open the Search bar', function() {
+  simpleSearchPageObject.clickSearchBar()
+})
+When('I enter Samsung', function() {
+  typetext.subject("Samsung")
+  simpleSearchPageObject.verifySubject()
+})
+Then('I should see the 4th Samsung search listing', function() {
+  simpleSearchPageObject.verifysearch()
+})
