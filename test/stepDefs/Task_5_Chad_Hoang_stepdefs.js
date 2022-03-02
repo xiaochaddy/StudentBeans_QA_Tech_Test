@@ -16,8 +16,8 @@ And('I open the login screen', function() {
 })
 
 When('I enter "test@test.com" in the email text box and "testingstuff" in the password text box', function () {
-  Task_5_Chad_Hoang_Object.typeEmail()
-  Task_5_Chad_Hoang_Object.typePassword()
+  Task_5_Chad_Hoang_Object.typeEmail('test@test.com')
+  Task_5_Chad_Hoang_Object.typePassword('testingstuff')
   Task_5_Chad_Hoang_Object.clickCaptcha()
   Task_5_Chad_Hoang_Object.clickLogin()
 })
