@@ -26,6 +26,7 @@ class SimpleSearchPageObject extends ParentPageObject {
     await this.isElementEqualToExpected($('h4=Samsung'), 'Samsung')
   }
 }
+}
   
  class SimpleSearchPageObject extends ParentPageObject {
    async verifySearch () {
