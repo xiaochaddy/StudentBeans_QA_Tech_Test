@@ -2,7 +2,7 @@ const { Given } = require('@cucumber/cucumber')
 const Task_5_Chad_Hoang_Object = require('../pageObjects/simpleSearchPageObject')
 const SimpleSearchPageObject = require('../pageObjects/simpleSearchPageObject')
 
-const Task_5_Chad_Hoang_Objects = new Task_5_Chad_Hoang_Object()
+const Task_5_Chad_Hoang_Object = new Task_5_Chad_Hoang_Object()
 const simpleSearchPageObject = new SimpleSearchPageObject()
 
 Given('I am on the studentbeans homepage', function () {
