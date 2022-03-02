@@ -22,6 +22,7 @@ class Task_5_Chad_Hoang_Object extends ParentPageObject {
 }
 }
 
+// Again, unsure of whether javasscript cucumber has these capabilities but within eggplant sensetalk using gherkin, I would be able to call these functions into my feature files and execute them.
 class Task_5_Chad_Hoang_Object extends ParentPageObject {
   async typeEmail () {
     //This will type the email in the email text box
