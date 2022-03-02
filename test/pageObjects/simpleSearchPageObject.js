@@ -22,13 +22,13 @@ class SimpleSearchPageObject extends ParentPageObject {
   async typetext('Samsung') {
     //This will type Samsung in the search bar
   }
-  async verifyText() {
+  async verifyText () {
     await this.isElementEqualToExpected($('h4=Samsung'), 'Samsung')
   }
 }
   
  class SimpleSearchPageObject extends ParentPageObject {
-   async verifySearch() {
+   async verifySearch () {
      await this.isElementEqualToExpected($('h5=Samsung Free Galaxy Buds + £100 off...'), 'Samsung Free Galaxy Buds + £100 off...')
    }
  }
