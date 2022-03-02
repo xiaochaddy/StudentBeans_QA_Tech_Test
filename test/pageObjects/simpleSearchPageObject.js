@@ -11,4 +11,26 @@ class SimpleSearchPageObject extends ParentPageObject {
   }
 }
 
+class SimpleSearchPageObject extends ParentPageObject {
+  async clickSearchBar () {
+    //This will click the search bar on the student beans page after locating the defaulted text within the search bar before clicking it
+  await this.isElementEqualToExpected($('h3=Start typing...'), 'Start typing...')
+  }
+}
+
+class SimpleSearchPageObject extends ParentPageObject {
+  async typetext('Samsung')
+    //This will type Samsung in the search bar
+  }
+  async verifyText() {
+    await this.isElementEqualToExpected($('h4=Samsung'), 'Samsung')
+  }
+  
+ class SimpleSearchPageObject extends ParentPageObject {
+   async verifySearch() {
+     await this.isElementEqualToExpected($('h5=Samsung Free Galaxy Buds + £100 off...'), 'Samsung Free Galaxy Buds + £100 off...')
+   }
+ }
+  
+
 module.exports = SimpleSearchPageObject
