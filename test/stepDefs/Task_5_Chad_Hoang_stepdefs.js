@@ -1,5 +1,5 @@
 const { Given } = require('@cucumber/cucumber')
-const Task_5_Chad_Hoang_Objects = require('../pageObjects/simpleSearchPageObject')
+const Task_5_Chad_Hoang_Object = require('../pageObjects/simpleSearchPageObject')
 const SimpleSearchPageObject = require('../pageObjects/simpleSearchPageObject')
 
 const Task_5_Chad_Hoang_Objects = new Task_5_Chad_Hoang_Object()
