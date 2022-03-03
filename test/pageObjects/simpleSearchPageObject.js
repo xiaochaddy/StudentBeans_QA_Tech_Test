@@ -19,7 +19,7 @@ class SimpleSearchPageObject extends ParentPageObject {
 }
 
 class SimpleSearchPageObject extends ParentPageObject {
-  async typetext('Samsung') {
+  async typeText() {
     //This will type Samsung in the search bar
   }
   async verifyText () {
