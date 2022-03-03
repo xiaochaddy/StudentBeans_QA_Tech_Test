@@ -11,7 +11,7 @@ And('I open the Search bar', function() {
   simpleSearchPageObject.clickSearchBar()
 })
 When('I enter Samsung', function() {
-  simpleSearchPageObject.verifyText()
+  simpleSearchPageObject.verifyText('Samsung')
 })
 Then('I should see the 4th Samsung search listing', function() {
   simpleSearchPageObject.verifysearch()
